@@ -1,0 +1,19 @@
+Git Commands:
+
+
+git stores the metadata and object database for the project in .git directory like:
+
+Remote information (to which remote server your project is connected)
+History of all local commits
+Branch information (on which branch is your current project state (HEAD) pointing to)
+All logs of all local commits you have ever made (including revert changes)
+
+
+
+echo "# trial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin 		https://github.com/Sandeep-Chintoju/trial.git
+git push -u origin master
